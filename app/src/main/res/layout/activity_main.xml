@@ -1,0 +1,125 @@
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout android:layout_height="match_parent"
+android:layout_width="match_parent"
+android:orientation="vertical"
+android:gravity="center"
+android:padding="80px"
+xmlns:android="http://schemas.android.com/apk/res/android">
+<TextView
+    android:layout_marginTop="30px"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="MOVIE APP"
+    android:textAlignment="center" />
+<TextView
+    android:layout_marginTop="100px"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="MOVIE NAME"
+    />
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/name"
+    android:hint="Enter movie name"/>
+<TextView
+    android:layout_marginTop="30px"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="ACTOR" />
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/actor"
+    android:hint="Enter actor name"/>
+<TextView
+    android:layout_marginTop="30px"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="ACTRESS" />
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/actress"
+    android:hint="Enter actress name"/>
+<TextView
+    android:layout_marginTop="30px"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="RELEASED YEAR"
+    />
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/year"
+    android:hint="Enter released year"/>
+<TextView
+    android:layout_marginTop="30px"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="LANGUAGE" />
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/lang"
+    android:hint="Enter language"/>
+<TextView
+    android:layout_marginTop="30px"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="GROSS COLLECTION" />
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/collect"
+    android:hint="Enter gross collection"/>
+<TextView
+    android:layout_marginTop="30px"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="DISTRIBUTER NAME" />
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/disname"
+    android:hint="Enter distributer name"/>
+<TextView
+    android:layout_marginTop="30px"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="PRODUCER NAME" />
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/prodname"
+    android:hint="Enter producer name"/>
+<TextView
+    android:layout_marginTop="30px"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="PRODUCTION COMPANY" />
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/compname"
+    android:hint="Enter production company"/>
+<androidx.appcompat.widget.AppCompatButton
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/black"
+    android:text="SUBMIT"
+    android:textColor="@color/white"
+    android:layout_margin="30px"
+    android:id="@+id/submit"/>
+<androidx.appcompat.widget.AppCompatButton
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/black"
+    android:text="VIEW ALL MOVIES"
+    android:textColor="@color/white"
+    android:layout_margin="30px"
+    android:id="@+id/viewall"/>
+</LinearLayout>
+</ScrollView>
